@@ -69,7 +69,7 @@ def signal_handler(signal, frame):
 # ----------------------------------------------------------------------------#
 # main code
 # ----------------------------------------------------------------------------#
-# register signale handler (CTRL + C)
+# register signal handler (CTRL + C)
 signal.signal(signal.SIGINT, signal_handler)
 # first video to play
 video = videoDir + 'Microsoft Build 2017 Azure Customers.mp4'
