@@ -137,8 +137,9 @@ while True:
 		print (strftime("%Y-%m-%d %H:%M:%S")) + " Lots of ladies here!"
 	else:
 		# pick random video
-		videoFiles = [ 'Introducing Office 365 Business.mp4',
-					   'Microsoft Vision for Azure Machine Learning.mp4',
+		videoFiles = [
+		               'Introducing Office 365 Business.mp4',
+		               'Microsoft Vision for Azure Machine Learning.mp4',
 					 ]
 		video  = videoDir + random.choice(videoFiles)
 		print (strftime("%Y-%m-%d %H:%M:%S")) + " Playing random videos for most random generation"
